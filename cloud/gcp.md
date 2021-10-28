@@ -17,16 +17,20 @@ https://github.com/RhinoSecurityLabs/GCPBucketBrute
 python3 gcpbucketbrute.py -k test -u # basic unauth scan for "test" keyword
 ```
 
+## Commands
+```
+gsutil ls -r gs://<bucket-name> # list bucket contents
+# some buckets are set up to only be accessed by authenticated users, it is always worth checking logged in, to do this we can use
+gcloud auth login # and then use gsutil ls again 
+```
+
 # App Engine
 
 # Recon
 ```
-site:bc.googleusercontent.com intext:<organisation> # buckets
+site:bc.googleusercontent.com intext:<organisation> 
 ```
 
 
-# gs commands
-gsutil ls -r gs://<bucket-name> # list bucket contents
-# some buckets are set up to only be accessed by authenticated users, it is always worth checking logged in, to do this we can use
-gcloud auth login # and then use gsutil ls again 
+
   

@@ -33,9 +33,22 @@ Known as GAE, platform as a service for developing and hosting web apps.
 
 ## Recon
 ```
-site:bc.googleusercontent.com intext:<organisation> 
+site:bc.googleusercontent.com inurl:<organisation> 
 ```
 
+# Cloud Run
+## WTF
+Managed compute platform that scales "stateless" (leave no trace, perform a job and then disappear) containers.
+
+
+## Recon
+```site:run.app inurl:<organisation>```
+  
+
+# Cloud FireStore
+## WTF
+  
+  
 
 
   

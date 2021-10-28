@@ -1,4 +1,7 @@
 # Storage Buckets
+## WTF
+Storage buckets, like s3.
+
 ## Recon
 ```
 site:appspot.com #app engine
@@ -25,8 +28,10 @@ gcloud auth login # and then use gsutil ls again
 ```
 
 # App Engine
+## WTF
+Known as GAE, platform as a service for developing and hosting web apps.
 
-# Recon
+## Recon
 ```
 site:bc.googleusercontent.com intext:<organisation> 
 ```

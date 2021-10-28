@@ -13,6 +13,7 @@ search github for "storage.googleapis.com" <companyname>
 check mobile apps for urls for buckets: i.e gs://<something>.appspot.com>
 msf -> auxiliary/scanner/http/enum_wayback
 don't forget to bruteforce file names if we can't list them all, the response has "NoSuchKey" if it doesnt exist
+https://www.shodan.io/search?query=storage.googleapis.com+org%3A%22Google+LLC%22+<organisation_name>
 ```
 ## Tools
 https://github.com/RhinoSecurityLabs/GCPBucketBrute
@@ -34,6 +35,7 @@ Known as GAE, platform as a service for developing and hosting web apps.
 ## Recon
 ```
 site:bc.googleusercontent.com inurl:<organisation> 
+https://www.shodan.io/search?query=bc.googleusercontent.com+org%3A%22Google+LLC%22+<organisation_name>
 ```
 
 # Cloud Run
@@ -42,7 +44,9 @@ Managed compute platform that scales "stateless" (leave no trace, perform a job 
 
 
 ## Recon
-```site:run.app inurl:<organisation>```
+```site:run.app inurl:<organisation>
+https://www.shodan.io/search?query=run.app+org%3A%22Google+LLC%22+<organisation_name>
+```
   
 
 # Cloud FireStore
@@ -56,6 +60,8 @@ Firebase -> Flexible, Scalable database
 ## WTF
 "Serverless" execution environment. Single purpose functions attached to events emitted from google cloud inf and services.
 
+## Recon
+```site:cloudfunctions.net inurl:<organisation>```
 
 
   

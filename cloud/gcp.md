@@ -47,7 +47,17 @@ Managed compute platform that scales "stateless" (leave no trace, perform a job 
 
 # Cloud FireStore
 ## WTF
-  
+Firebase -> Flexible, Scalable database
+
+## Recon
+```site:firebaseio.com inurl:<organisation>```
+
+# Cloud Functions
+## WTF
+"Serverless" execution environment. Single purpose functions attached to events emitted from google cloud inf and services.
+
+
+
   
 
 

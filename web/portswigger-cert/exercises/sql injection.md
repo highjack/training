@@ -33,4 +33,10 @@ https://ac911fe71e9eb3afc0b54717000f0026.web-security-academy.net/filter?categor
 
 Note, for some dumb reason, it doesn't allow you to complete the lab unless you use "null" instead of strings even though the other query works.
 
+## Lab: SQL injection UNION attack, determining the number of columns returned by the query
+Background: make the db return "FukClL" I just did a normal union select 1,2,3 then got an error so changed the one at a time to strings with a single quote and 2 was printed on the page. 
+Payload: /filter?category='+union+select+1,'FukClL',3--
 
+## Lab: SQL injection UNION attack, retrieving data from other tables
+Background: retrieve username and password from users table
+Payload: 
